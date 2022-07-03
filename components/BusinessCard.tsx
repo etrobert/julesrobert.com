@@ -1,7 +1,7 @@
 import styles from "./BusinessCard.module.css";
 
 const BusinessCard = () => (
-  <div>
+  <div className={styles.container}>
     <h1>Étienne Robert</h1>
     <div className={styles.links}>
       <a
