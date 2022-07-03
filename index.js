@@ -1,2 +1,4 @@
+const App = () => <h1>Étienne Robert</h1>;
+
 const app = document.getElementById("app");
-ReactDOM.render(<h1>Develop. Preview. Ship. 🚀</h1>, app);
+ReactDOM.render(<App />, app);
