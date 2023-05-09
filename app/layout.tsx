@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Étienne Robert",
   description: "Étienne Robert's personal website",

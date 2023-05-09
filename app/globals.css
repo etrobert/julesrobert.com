@@ -19,5 +19,5 @@ body {
 
 @font-face {
   font-family: title;
-  src: url(resources/Kalam/Kalam-Regular.ttf);
+  src: url(../resources/Kalam/Kalam-Regular.ttf);
 }
