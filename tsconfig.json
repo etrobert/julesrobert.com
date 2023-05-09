@@ -13,8 +13,13 @@
     "moduleResolution": "node",
     "isolatedModules": true,
     "jsx": "preserve",
-    "allowJs": false
+    "allowJs": false,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
