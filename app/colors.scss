@@ -1,0 +1,9 @@
+$background-light: whitesmoke;
+$high-contrast-light: hsl(216, 28%, 7%);
+
+$background-dark: hsl(216, 28%, 7%);
+$high-contrast-dark: whitesmoke;
+
+@function high-contrast($color-scheme-dark) {
+  @return if($color-scheme-dark, $high-contrast-dark, $high-contrast-light);
+}

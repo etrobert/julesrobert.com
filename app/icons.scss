@@ -1,31 +1,12 @@
-.container {
-  display: grid;
-  place-content: center;
-  height: 100%;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  gap: 5vw;
-}
-
-.links > a {
-  display: block;
-  width: 2em;
-  height: 2em;
-  background-size: contain;
-}
-
-.github-link {
-  background-image: url('data:image/svg+xml,\
+@function github($stroke) {
+  @return url('data:image/svg+xml,\
     <svg\
       xmlns="http://www.w3.org/2000/svg"\
       width="24"\
       height="24"\
       viewBox="0 0 24 24"\
       fill="none"\
-      stroke="rgb(245, 245, 245)"\
+      stroke="#{$stroke}"\
       stroke-width="2"\
       stroke-linecap="round"\
       stroke-linejoin="round"\
@@ -42,15 +23,15 @@
   ');
 }
 
-.linkedin-link {
-  background-image: url('data:image/svg+xml,\
+@function linkedin($stroke) {
+  @return url('data:image/svg+xml,\
     <svg\
       xmlns="http://www.w3.org/2000/svg"\
       width="24"\
       height="24"\
       viewBox="0 0 24 24"\
       fill="none"\
-      stroke="rgb(245, 245, 245)"\
+      stroke="#{$stroke}"\
       stroke-width="2"\
       stroke-linecap="round"\
       stroke-linejoin="round"\
@@ -64,15 +45,15 @@
     </svg>');
 }
 
-.instagram-link {
-  background-image: url('data:image/svg+xml,\
+@function instagram($stroke) {
+  @return url('data:image/svg+xml,\
     <svg\
       xmlns="http://www.w3.org/2000/svg"\
       width="24"\
       height="24"\
       viewBox="0 0 24 24"\
       fill="none"\
-      stroke="rgb(245, 245, 245)"\
+      stroke="#{$stroke}"\
       stroke-width="2"\
       stroke-linecap="round"\
       stroke-linejoin="round"\
