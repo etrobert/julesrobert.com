@@ -1,6 +1,10 @@
 @use '/app/colors';
 @use '/app/icons';
 
+.heading {
+  letter-spacing: -0.025em;
+}
+
 .container {
   display: grid;
   place-content: center;

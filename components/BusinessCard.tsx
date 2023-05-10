@@ -3,7 +3,7 @@ import styles from './BusinessCard.module.scss';
 
 const BusinessCard = () => (
   <div className={styles.container}>
-    <h1>Étienne Robert</h1>
+    <h1 className={styles.heading}>Étienne Robert</h1>
     <div className={styles.links}>
       <Link
         className={styles['github-link']}
