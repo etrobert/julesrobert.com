@@ -1,4 +1,4 @@
-import BusinessCard from "../components/BusinessCard";
+import BusinessCard from '../components/BusinessCard';
 
 const App = () => <BusinessCard />;
 

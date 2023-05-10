@@ -1,16 +1,16 @@
-import { Kalam } from "next/font/google";
+import { Kalam } from 'next/font/google';
 
-import "./globals.css";
+import './globals.css';
 
 // If loading a variable font, you don't need to specify the font weight
 const kalam = Kalam({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 export const metadata = {
-  title: "Étienne Robert",
+  title: 'Étienne Robert',
   description: "Étienne Robert's personal website",
 };
 
