@@ -13,11 +13,5 @@ body {
 body {
   background: #0d1117;
   color: whitesmoke;
-  font-family: title;
   font-size: 5vw;
-}
-
-@font-face {
-  font-family: title;
-  src: url(../resources/Kalam/Kalam-Regular.ttf);
 }

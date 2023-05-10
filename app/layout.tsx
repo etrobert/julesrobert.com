@@ -1,4 +1,13 @@
+import { Kalam } from "next/font/google";
+
 import "./globals.css";
+
+// If loading a variable font, you don't need to specify the font weight
+const kalam = Kalam({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Étienne Robert",
@@ -13,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={kalam.className}>
       <body>{children}</body>
     </html>
   );
