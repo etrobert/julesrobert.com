@@ -13,7 +13,7 @@ const BusinessCard = () => (
       <Link
         className={styles['linkedin-link']}
         target="_blank"
-        href="https://www.linkedin.com/in/etienne-robert-0196b6140/"
+        href="https://www.linkedin.com/in/etienne-robert-dev/"
       />
       <Link
         className={styles['instagram-link']}
