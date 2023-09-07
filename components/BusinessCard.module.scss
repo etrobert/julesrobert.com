@@ -1,5 +1,4 @@
 @use '/app/colors';
-@use '/app/icons';
 
 .heading {
   letter-spacing: -0.025em;
@@ -22,36 +21,11 @@
   width: 2em;
   height: 2em;
   background-size: contain;
+  color: inherit;
   opacity: 0.8;
   transition: opacity 0.25s ease-in-out;
 
   &:hover {
     opacity: 1;
-  }
-}
-
-.github-link {
-  background-image: icons.github(colors.$high-contrast-dark);
-}
-
-.linkedin-link {
-  background-image: icons.linkedin(colors.$high-contrast-dark);
-}
-
-.instagram-link {
-  background-image: icons.instagram(colors.$high-contrast-dark);
-}
-
-@media (prefers-color-scheme: light) {
-  .github-link {
-    background-image: icons.github(colors.$high-contrast-light);
-  }
-
-  .linkedin-link {
-    background-image: icons.linkedin(colors.$high-contrast-light);
-  }
-
-  .instagram-link {
-    background-image: icons.instagram(colors.$high-contrast-light);
   }
 }
