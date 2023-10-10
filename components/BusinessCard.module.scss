@@ -46,7 +46,7 @@
 .portrait {
   grid-area: portrait;
   width: 18rem;
-  border: 3px solid #2d2e32;
+  border: 3px solid var(--high-contrast);
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   animation: morph 8s ease-in-out infinite;
 }
