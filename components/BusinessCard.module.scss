@@ -7,9 +7,20 @@
 .container {
   display: grid;
   place-content: center;
-  justify-items: center;
+  place-items: center;
   height: 100%;
   font-size: 1.5rem;
+  grid-template-areas:
+    'portrait'
+    'rest';
+}
+
+@media screen and (min-width: 60rem) {
+  .container {
+    grid-template-areas: 'rest portrait';
+    gap: 6rem;
+    font-size: 2rem;
+  }
 }
 
 .links {
@@ -33,6 +44,7 @@
 }
 
 .portrait {
+  grid-area: portrait;
   width: 18rem;
   border: 3px solid #2d2e32;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

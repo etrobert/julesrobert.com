@@ -7,20 +7,22 @@ import InstagramIcon from './icons/InstagramIcon';
 const BusinessCard = () => (
   <div className={styles.container}>
     <img className={styles.portrait} src="portrait.jpeg" alt="Portrait" />
-    <h1 className={styles.heading}>Étienne Robert</h1>
-    <div className={styles.links}>
-      <Link target="_blank" href="https://github.com/etrobert">
-        <GithubIcon />
-      </Link>
-      <Link
-        target="_blank"
-        href="https://www.linkedin.com/in/etienne-robert-dev/"
-      >
-        <LinkedinIcon />
-      </Link>
-      <Link target="_blank" href="https://www.instagram.com/etrobert_">
-        <InstagramIcon />
-      </Link>
+    <div>
+      <h1 className={styles.heading}>Étienne Robert</h1>
+      <div className={styles.links}>
+        <Link target="_blank" href="https://github.com/etrobert">
+          <GithubIcon />
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/etienne-robert-dev/"
+        >
+          <LinkedinIcon />
+        </Link>
+        <Link target="_blank" href="https://www.instagram.com/etrobert_">
+          <InstagramIcon />
+        </Link>
+      </div>
     </div>
   </div>
 );
