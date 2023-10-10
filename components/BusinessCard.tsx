@@ -5,6 +5,7 @@ import GithubIcon from './icons/GithubIcon';
 import LinkedinIcon from './icons/LinkedinIcon';
 import InstagramIcon from './icons/InstagramIcon';
 import { title } from '../app/fonts';
+import JustifiedText from './JustifiedText';
 
 const BusinessCard = () => (
   <div className={styles.container}>
@@ -17,6 +18,9 @@ const BusinessCard = () => (
     />
     <div>
       <h1 className={`${styles.heading} ${title.className}`}>Étienne Robert</h1>
+      <JustifiedText className={styles.subtext}>
+        Software Developer & Queer Creative
+      </JustifiedText>
       <div className={styles.links}>
         <Link target="_blank" href="https://github.com/etrobert">
           <GithubIcon />
