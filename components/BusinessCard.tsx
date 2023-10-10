@@ -6,6 +6,7 @@ import InstagramIcon from './icons/InstagramIcon';
 
 const BusinessCard = () => (
   <div className={styles.container}>
+    <img className={styles.portrait} src="portrait.jpeg" alt="Portrait" />
     <h1 className={styles.heading}>Étienne Robert</h1>
     <div className={styles.links}>
       <Link target="_blank" href="https://github.com/etrobert">
