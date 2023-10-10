@@ -1,4 +1,4 @@
-import { kalam } from './fonts';
+import { defaultFont } from './fonts';
 import './globals.scss';
 
 export const metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={kalam.className}>
+    <html lang="en" className={defaultFont.className}>
       <body>{children}</body>
     </html>
   );

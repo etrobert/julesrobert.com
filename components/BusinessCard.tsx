@@ -4,6 +4,7 @@ import styles from './BusinessCard.module.scss';
 import GithubIcon from './icons/GithubIcon';
 import LinkedinIcon from './icons/LinkedinIcon';
 import InstagramIcon from './icons/InstagramIcon';
+import { title } from '../app/fonts';
 
 const BusinessCard = () => (
   <div className={styles.container}>
@@ -15,7 +16,7 @@ const BusinessCard = () => (
       alt="Portrait of the author"
     />
     <div>
-      <h1 className={styles.heading}>Étienne Robert</h1>
+      <h1 className={`${styles.heading} ${title.className}`}>Étienne Robert</h1>
       <div className={styles.links}>
         <Link target="_blank" href="https://github.com/etrobert">
           <GithubIcon />
