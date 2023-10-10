@@ -1,13 +1,5 @@
-import { Inter } from 'next/font/google';
-
+import { kalam } from './fonts';
 import './globals.scss';
-
-// If loading a variable font, you don't need to specify the font weight
-const kalam = Inter({
-  weight: '800',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 export const metadata = {
   title: 'Étienne Robert',
