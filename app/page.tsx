@@ -1,11 +1,5 @@
-import Assistant from '../components/Assistant';
 import BusinessCard from '../components/BusinessCard';
 
-const App = () => (
-  <>
-    <BusinessCard />
-    <Assistant />
-  </>
-);
+const App = () => <BusinessCard />;
 
 export default App;
