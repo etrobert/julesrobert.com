@@ -5,13 +5,15 @@ import type { ReactNode } from 'react';
 type Props = {
   href: string;
   icon: ReactNode;
+  label: string;
 };
 
-const IconLink = ({ href, icon }: Props) => (
+const IconLink = ({ href, icon, label }: Props) => (
   <Link
     target="_blank"
     href={href}
     className="w-[2em] opacity-80 hover:opacity-100 transition-opacity duration-300"
+    aria-label={label}
   >
     {icon}
   </Link>
