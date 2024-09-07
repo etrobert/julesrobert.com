@@ -17,7 +17,7 @@ const Links = () => (
     />
     <IconLink
       label="Instagram Profile"
-      href="https://www.instagram.com/etrobert_"
+      href="https://www.instagram.com/thesoft.emperor"
       icon={<InstagramIcon />}
     />
   </div>
