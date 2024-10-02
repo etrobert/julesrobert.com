@@ -6,7 +6,7 @@ const Links = () => (
   <div className={'flex justify-center gap-[5vw]'}>
     <IconLink
       label="Linkedin Profile"
-      href="https://www.linkedin.com/in/etienne-robert-dev/"
+      href="https://www.linkedin.com/in/ad%C3%A8le-robert-6b7276224"
       icon={<LinkedinIcon />}
     />
     <IconLink
