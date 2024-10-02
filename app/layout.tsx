@@ -2,8 +2,8 @@ import { defaultFont } from './fonts';
 import './globals.scss';
 
 export const metadata = {
-  title: 'Étienne Robert',
-  description: "Étienne Robert's personal website",
+  title: 'Adèle Robert',
+  description: "Adèle Robert's personal website",
 };
 
 export default function RootLayout({
