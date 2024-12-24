@@ -1,18 +1,12 @@
-import LinkedinIcon from './icons/LinkedinIcon';
-import InstagramIcon from './icons/InstagramIcon';
+import SpotifyIcon from './icons/SpotifyIcon';
 import IconLink from './IconLink';
 
 const Links = () => (
   <div className={'flex justify-center gap-[5vw]'}>
     <IconLink
-      label="Linkedin Profile"
-      href="https://www.linkedin.com/in/ad%C3%A8le-robert-6b7276224"
-      icon={<LinkedinIcon />}
-    />
-    <IconLink
-      label="Instagram Profile"
-      href="https://www.instagram.com/adele.robert"
-      icon={<InstagramIcon />}
+      label="Spotify Profile"
+      href="https://open.spotify.com/user/1165742894?si=c3dfeed5c421480f"
+      icon={<SpotifyIcon />}
     />
   </div>
 );
