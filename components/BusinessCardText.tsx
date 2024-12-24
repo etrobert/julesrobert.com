@@ -7,8 +7,8 @@ const BusinessCardText = () => (
     <h1 className={`text-[2em] tracking-tight leading-none ${title.className}`}>
       Jules Robert
     </h1>
-    <JustifiedText className={'text-[0.79em] leading-tight'}>
-      French Adventurer and Engineer
+    <JustifiedText className={'text-[0.87em] leading-tight'}>
+      Japan Expert and Equestrian
     </JustifiedText>
     <Links />
   </div>
